@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+#nav {
+  border: 2px solid red;
+  height: 80px;
+}
+
+#sub-nav {
+  border: 2px solid red;
+
+  height: inherit;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sub-nav ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+
+  list-style: none;
+}
+#sub-nav li {
+  font-size: 16px;
+  line-height: 24px;
+}
+#sub-nav li:nth-child(1) {
+  font-size: 20px;
+}
