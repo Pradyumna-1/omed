@@ -7,12 +7,12 @@
 }
 
 #nav {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 80px;
 }
 
 #sub-nav {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   height: inherit;
   width: 95%;
@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 #sub-nav ul {
   display: inline-flex;
